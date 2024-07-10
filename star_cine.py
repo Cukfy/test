@@ -16,8 +16,10 @@ class Hall(Star_Cinema):
         tuple=(id,movie_name,time)
         self.show_list.append(tuple)
 
-        seats_2d = [['Free' for _ in range(self.cols)] for _ in range(self.rows)]
-        self.seats[id] = seats_2d
+        seat = [['Free' for _ in range(self.cols)] for _ in range(self.rows)]
+        self.seats[id] = seat
+
+    def book_seats(self,id,)
 
 
     

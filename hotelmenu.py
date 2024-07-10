@@ -1,6 +1,6 @@
 Menu={
     'pizza':40,
-    'pasta':50,
+    'pasta':400,
     'burger':60,
     'coffee':80,
 }
